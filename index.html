@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>订单详情 - 电商订单</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">O+</div>
+        <div>
+          <p class="brand-title">星海优选</p>
+          <p class="brand-sub">订单详情</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <button class="ghost">联系客服</button>
+        <button class="ghost">帮助中心</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-left">
+        <p class="badge success">待收货</p>
+        <h1>包裹已发出，预计 3 月 18 日送达</h1>
+        <p class="hero-desc">订单号：2024031508891288 ｜ 下单时间：2024-03-15 12:20:08</p>
+        <div class="hero-actions">
+          <button class="primary">查看物流</button>
+          <button class="ghost">延长收货</button>
+          <button class="ghost">申请退款</button>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="progress">
+          <div class="progress-step active">
+            <span>已付款</span>
+            <small>03-15 12:25</small>
+          </div>
+          <div class="progress-step active">
+            <span>已发货</span>
+            <small>03-16 09:18</small>
+          </div>
+          <div class="progress-step">
+            <span>运输中</span>
+            <small>预计今日</small>
+          </div>
+          <div class="progress-step">
+            <span>已完成</span>
+            <small>签收后完成</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="column left">
+        <div class="card logistics">
+          <div class="card-header">
+            <h2>物流信息</h2>
+            <button class="link">查看完整物流</button>
+          </div>
+          <ul class="timeline">
+            <li class="active">
+              <span class="dot"></span>
+              <div>
+                <p>【杭州转运中心】包裹已离开分拨中心，正在发往北京</p>
+                <span>03-16 22:10</span>
+              </div>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <div>
+                <p>【杭州转运中心】已揽收，等待发出</p>
+                <span>03-16 09:18</span>
+              </div>
+            </li>
+            <li>
+              <span class="dot"></span>
+              <div>
+                <p>卖家已发货，快递公司：顺丰速运</p>
+                <span>03-16 08:45</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card items">
+          <div class="card-header">
+            <h2>商品信息</h2>
+            <button class="link">联系卖家</button>
+          </div>
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=240&q=80" alt="商品图" />
+            <div class="item-info">
+              <h3>轻奢真丝衬衫｜春季新款通勤必备</h3>
+              <p>颜色：云雾白｜尺码：M</p>
+              <div class="item-meta">
+                <span>¥269.00</span>
+                <span>×1</span>
+              </div>
+            </div>
+            <button class="ghost small">申请售后</button>
+          </div>
+          <div class="item">
+            <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=240&q=80" alt="商品图" />
+            <div class="item-info">
+              <h3>法式高腰直筒牛仔裤｜显瘦长腿</h3>
+              <p>颜色：靛蓝｜尺码：S</p>
+              <div class="item-meta">
+                <span>¥329.00</span>
+                <span>×1</span>
+              </div>
+            </div>
+            <button class="ghost small">申请售后</button>
+          </div>
+        </div>
+
+        <div class="card service">
+          <h2>订单服务</h2>
+          <div class="service-grid">
+            <div>
+              <p class="service-title">极速退款</p>
+              <p class="service-desc">支持到货后 7 天无理由退货</p>
+            </div>
+            <div>
+              <p class="service-title">破损包赔</p>
+              <p class="service-desc">运输破损 48 小时内赔付</p>
+            </div>
+            <div>
+              <p class="service-title">上门取件</p>
+              <p class="service-desc">售后申请后最快次日上门取件</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="column right">
+        <div class="card address">
+          <h2>收货信息</h2>
+          <p class="address-name">周佳琪 138****4821</p>
+          <p class="address-detail">浙江省 杭州市 西湖区 文三路 138 号 6 幢 1102</p>
+          <div class="address-actions">
+            <button class="ghost">修改地址</button>
+            <button class="ghost">查看发票</button>
+          </div>
+        </div>
+
+        <div class="card summary">
+          <h2>订单金额</h2>
+          <div class="summary-row">
+            <span>商品金额</span>
+            <span>¥598.00</span>
+          </div>
+          <div class="summary-row">
+            <span>运费</span>
+            <span>¥0.00</span>
+          </div>
+          <div class="summary-row">
+            <span>优惠券</span>
+            <span>-¥30.00</span>
+          </div>
+          <div class="summary-row">
+            <span>会员折扣</span>
+            <span>-¥12.00</span>
+          </div>
+          <div class="summary-row total">
+            <span>实付</span>
+            <span>¥556.00</span>
+          </div>
+          <button class="primary block">确认收货</button>
+          <button class="ghost block">再次购买</button>
+        </div>
+
+        <div class="card seller">
+          <h2>商家信息</h2>
+          <div class="seller-info">
+            <div>
+              <p class="seller-name">星海旗舰店</p>
+              <p class="seller-meta">综合评分 4.9 ｜ 30 天好评率 98%</p>
+            </div>
+            <button class="ghost">进店逛逛</button>
+          </div>
+          <div class="seller-tags">
+            <span>官方认证</span>
+            <span>7 天无理由</span>
+            <span>极速发货</span>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </div>
+</body>
+</html>
